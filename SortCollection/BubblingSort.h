@@ -11,5 +11,7 @@
 @interface BubblingSort : NSObject
 
 - (void)bullingSortVersionSimple :(NSMutableArray *)array;
+- (void)bullingSortVersionBetter :(NSMutableArray *)array;
+- (void)bullingSortVersionBetterMore :(NSMutableArray *)array;
 
 @end

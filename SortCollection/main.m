@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
         }
         
         BubblingSort *bubblingSort = [[BubblingSort alloc]init];
-        [bubblingSort bullingSortVersionSimple:array];
+        [bubblingSort bullingSortVersionBetterMore:array];
         
         for (NSNumber *number in array) {
             NSLog(@"%@",number);
