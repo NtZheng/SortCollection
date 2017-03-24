@@ -7,11 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BubblingSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        NSMutableArray *array = [NSMutableArray array];
+        for (int i = 0; i < 10; i++) {
+            int random = arc4random() % 100;
+            [array addObject:[NSNumber numberWithInt:random]];
+        }
+        
+        BubblingSort *bubblingSort = [[BubblingSort alloc]init];
+        [bubblingSort bullingSortVersionSimple:array];
+        
+        for (NSNumber *number in array) {
+            NSLog(@"%@",number);
+        }
+        
     }
     return 0;
 }
