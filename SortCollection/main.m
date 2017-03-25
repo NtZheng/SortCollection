@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "BubblingSort.h"
+#import "SelectingSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -18,13 +19,17 @@ int main(int argc, const char * argv[]) {
             [array addObject:[NSNumber numberWithInt:random]];
         }
         
-        BubblingSort *bubblingSort = [[BubblingSort alloc]init];
-        [bubblingSort bullingSortVersionBetterMore:array];
-        
         for (NSNumber *number in array) {
             NSLog(@"%@",number);
         }
         
+        NSLog(@"-------------");
+        
+        [SelectingSort selectingSortInArray:array];
+        
+        for (NSNumber *number in array) {
+            NSLog(@"%@",number);
+        }
         
     }
     return 0;
