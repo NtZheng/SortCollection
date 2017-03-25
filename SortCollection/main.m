@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "BubblingSort.h"
 #import "SelectingSort.h"
+#import "InsertingSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -25,7 +26,7 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"-------------");
         
-        [SelectingSort selectingSortInArray:array];
+        [InsertingSort insertingSortInArray:array];
         
         for (NSNumber *number in array) {
             NSLog(@"%@",number);

@@ -10,6 +10,7 @@
 		6A1E10CC1E84DE58002F6A29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E10CB1E84DE58002F6A29 /* main.m */; };
 		6A1E10D41E84DE82002F6A29 /* BubblingSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E10D31E84DE82002F6A29 /* BubblingSort.m */; };
 		6A71A46D1E860BD7001F2028 /* SelectingSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A71A46C1E860BD7001F2028 /* SelectingSort.m */; };
+		6AA7F78D1E8613940069AB95 /* InsertingSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7F78C1E8613940069AB95 /* InsertingSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		6A1E10D31E84DE82002F6A29 /* BubblingSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubblingSort.m; sourceTree = "<group>"; };
 		6A71A46B1E860BD7001F2028 /* SelectingSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectingSort.h; sourceTree = "<group>"; };
 		6A71A46C1E860BD7001F2028 /* SelectingSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectingSort.m; sourceTree = "<group>"; };
+		6AA7F78B1E8613940069AB95 /* InsertingSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertingSort.h; sourceTree = "<group>"; };
+		6AA7F78C1E8613940069AB95 /* InsertingSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertingSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +66,13 @@
 		6A1E10CA1E84DE58002F6A29 /* SortCollection */ = {
 			isa = PBXGroup;
 			children = (
+				6A1E10CB1E84DE58002F6A29 /* main.m */,
 				6A1E10D21E84DE82002F6A29 /* BubblingSort.h */,
 				6A1E10D31E84DE82002F6A29 /* BubblingSort.m */,
 				6A71A46B1E860BD7001F2028 /* SelectingSort.h */,
 				6A71A46C1E860BD7001F2028 /* SelectingSort.m */,
-				6A1E10CB1E84DE58002F6A29 /* main.m */,
+				6AA7F78B1E8613940069AB95 /* InsertingSort.h */,
+				6AA7F78C1E8613940069AB95 /* InsertingSort.m */,
 			);
 			path = SortCollection;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A71A46D1E860BD7001F2028 /* SelectingSort.m in Sources */,
+				6AA7F78D1E8613940069AB95 /* InsertingSort.m in Sources */,
 				6A1E10D41E84DE82002F6A29 /* BubblingSort.m in Sources */,
 				6A1E10CC1E84DE58002F6A29 /* main.m in Sources */,
 			);
