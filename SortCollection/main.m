@@ -10,12 +10,13 @@
 #import "BubblingSort.h"
 #import "SelectingSort.h"
 #import "InsertingSort.h"
+#import "ShellSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSMutableArray *array = [NSMutableArray array];
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 9; i++) {
             int random = arc4random() % 100;
             [array addObject:[NSNumber numberWithInt:random]];
         }
@@ -26,7 +27,7 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"-------------");
         
-        [InsertingSort insertingSortInArray:array];
+        [ShellSort shellSortInArray:array];
         
         for (NSNumber *number in array) {
             NSLog(@"%@",number);
