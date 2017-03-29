@@ -11,6 +11,7 @@
 #import "SelectingSort.h"
 #import "InsertingSort.h"
 #import "ShellSort.h"
+#import "HeapSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -27,7 +28,7 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"-------------");
         
-        [ShellSort shellSortInArray:array];
+        [HeapSort heapSortInArray:array];
         
         for (NSNumber *number in array) {
             NSLog(@"%@",number);
