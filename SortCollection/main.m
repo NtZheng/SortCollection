@@ -13,6 +13,7 @@
 #import "ShellSort.h"
 #import "HeapSort.h"
 #import "MergeSort.h"
+#import "QuickSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -29,7 +30,7 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"-------------");
         
-        [MergeSort mergeSortInArray:array];
+        [QuickSort quickSortInArray:array];
         
         for (NSNumber *number in array) {
             NSLog(@"%@",number);

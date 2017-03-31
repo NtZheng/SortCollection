@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A0F0D681E8E0973003A7187 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F0D671E8E0973003A7187 /* QuickSort.m */; };
 		6A1E10CC1E84DE58002F6A29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E10CB1E84DE58002F6A29 /* main.m */; };
 		6A1E10D41E84DE82002F6A29 /* BubblingSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E10D31E84DE82002F6A29 /* BubblingSort.m */; };
 		6A69F7DA1E8D008A00F163E7 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A69F7D91E8D008A00F163E7 /* MergeSort.m */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A0F0D661E8E0973003A7187 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		6A0F0D671E8E0973003A7187 /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 		6A1E10C81E84DE58002F6A29 /* SortCollection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortCollection; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1E10CB1E84DE58002F6A29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A1E10D21E84DE82002F6A29 /* BubblingSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubblingSort.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				6A87DAD81E8B53DD004202D9 /* HeapSort.m */,
 				6A69F7D81E8D008A00F163E7 /* MergeSort.h */,
 				6A69F7D91E8D008A00F163E7 /* MergeSort.m */,
+				6A0F0D661E8E0973003A7187 /* QuickSort.h */,
+				6A0F0D671E8E0973003A7187 /* QuickSort.m */,
 			);
 			path = SortCollection;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				6A69F7DA1E8D008A00F163E7 /* MergeSort.m in Sources */,
 				6A71A46D1E860BD7001F2028 /* SelectingSort.m in Sources */,
 				6AA7F78D1E8613940069AB95 /* InsertingSort.m in Sources */,
+				6A0F0D681E8E0973003A7187 /* QuickSort.m in Sources */,
 				6AA3992D1E890DBF00641C7A /* ShellSort.m in Sources */,
 				6A87DAD91E8B53DD004202D9 /* HeapSort.m in Sources */,
 				6A1E10D41E84DE82002F6A29 /* BubblingSort.m in Sources */,
