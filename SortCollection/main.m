@@ -12,12 +12,13 @@
 #import "InsertingSort.h"
 #import "ShellSort.h"
 #import "HeapSort.h"
+#import "MergeSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSMutableArray *array = [NSMutableArray array];
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 10; i++) {
             int random = arc4random() % 100;
             [array addObject:[NSNumber numberWithInt:random]];
         }
@@ -28,7 +29,7 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"-------------");
         
-        [HeapSort heapSortInArray:array];
+        [MergeSort mergeSortInArray:array];
         
         for (NSNumber *number in array) {
             NSLog(@"%@",number);
